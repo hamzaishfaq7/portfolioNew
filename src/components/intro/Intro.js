@@ -12,8 +12,8 @@ const Intro = () => {
     // Return Something:
     return (
         <section id="about">
-      <h5>Get to know me:</h5>
-      <h2>About Me</h2>
+      <h5>Here's my story</h5>
+      <h2>Get to know me</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -33,7 +33,7 @@ const Intro = () => {
               <small>5+ Completed Projects</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, building everything from landing pages to APIs. My experience as a teacher in an international school helped me collaborate with fellow developers from all over the world. Additionally, working with kids isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
+          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, and React. My experience as a banker helped me collaborate with people that helped me out. Additionally, working with people's money isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
