@@ -3,6 +3,7 @@
 import React from "react";
 import './contact.css';
 
+
 // This is to make this contact section:
 
 const Contact = () => {
@@ -21,7 +22,7 @@ const Contact = () => {
             <input type="text" placeholder="Your Full Name" name="user_name" required />
             <input type="text" placeholder="Your Email" name="user_email" required/>
             <textarea placeholder="Your message" rows="7" name="message" required></textarea>
-            <button type="submit" className="btn btn-primary">Send Message</button>
+            <button type="submit" className="btn btn-primary" >Send Message</button>
           </form>
         </div>
   

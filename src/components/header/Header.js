@@ -14,7 +14,6 @@ const Header = () => {
           <h1>Hamza Ishfaq</h1>
           <h5 className="text-light">Front-end Developer</h5>
           <CTA />
-          <a href="#contact" className="scroll__down">Scroll Down For More</a>
           <HeaderSocials />
         </div>
       </header>
