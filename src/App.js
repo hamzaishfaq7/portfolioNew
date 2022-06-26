@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+// Import the required things here:
+import React from "react";
+import Contact from "./components/contact/Contact"
+import Experience from "./components/experience/Experience";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import Intro from "./components/intro/Intro";
+import Portfolio from "./components/portfolio/Portfolio"
 
-function App() {
+
+// Here is where the main function will run on the page:
+
+const App = () => {
+  // Always return something:
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Header />
+    <Intro />
+    <Experience />
+    <Portfolio />
+    <Contact />
+    <Footer />
+    
+    </>
+  )
 }
+
+// Export always at the end:
 
 export default App;
