@@ -13,8 +13,6 @@ const Header = () => {
           <h5>Hi there! My name is </h5>
           <h1>Hamza Ishfaq</h1>
           <h5 className="text-light">A Front-end Developer</h5>
-          <CTA />
-          <HeaderSocials />
         </div>
       </header>
     )

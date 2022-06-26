@@ -33,7 +33,7 @@ const Intro = () => {
               <small>5+ Completed Projects</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, and React. My experience as a banker helped me collaborate with people that helped me out. Additionally, working with people's money isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
+          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, Git/GitHub and React. My experience as a banker helped me collaborate with people that helped me out. Additionally, working with people's money isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in any industry.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
