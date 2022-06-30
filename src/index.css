@@ -12,7 +12,7 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
+  --color-bg: #000;
   --color-bg-variant: #B57233;
   --color-primary: #e6934f;
   --color-primary-variant: #B57233;
@@ -24,15 +24,14 @@
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
+  
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-/* ::-webkit-scrollbar {
-  display: none;
-} */
+
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -40,6 +39,10 @@ body {
   color: var(--color-white);
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png);
+  background-size: cover;
+ background-repeat: no-repeat;
+  
+  
 }
 
 .container {
@@ -85,7 +88,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-white);
+  color: var(--color-whitee);
 }
 
 .btn {

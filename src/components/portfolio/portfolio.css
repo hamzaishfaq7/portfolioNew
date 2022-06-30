@@ -46,3 +46,7 @@
         gap: 1rem;
     }
 }
+
+.changeSize{
+    font-size: 40px;
+}

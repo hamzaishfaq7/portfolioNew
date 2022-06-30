@@ -22,7 +22,7 @@ const Footer = () => {
       <a href="https://github.com/hamzaishfaq7" target="new" rel="noreferrer" ><FaGithub /></a>
       </div>
       <div className="footer__copyright">
-        <small>&copy; Hamza Ishfaq 2022. All rights reserved.</small>
+        <small>&copy; Hamza Ishfaq 2022. Created using React.</small>
       </div>
     </footer>
   )

@@ -12,8 +12,7 @@ const Intro = () => {
     // Return Something:
     return (
         <section id="about">
-      <h5>Here's my story</h5>
-      <h2>Get to know me</h2>
+      <h2 className='change'>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
