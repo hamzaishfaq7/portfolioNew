@@ -47,7 +47,7 @@ const Experience = () => {
           <div className="experience__content">
           <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>TD Canada Trust (Personal Banker)</h4>
+              <h4>TD Canada Trust (Teller)</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
