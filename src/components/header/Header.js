@@ -2,7 +2,6 @@
 import React from 'react';
 import CTA from './CTA';
 import './header.css';
-import HeaderSocials from './HeaderSocials';
 
 // This is the main header:
 
