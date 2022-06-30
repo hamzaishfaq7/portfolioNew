@@ -9,6 +9,7 @@ header {
     height: 100%;
     position: relative;
     font-size: 45px;
+    padding: 50px;
   }
   
   .cta {
