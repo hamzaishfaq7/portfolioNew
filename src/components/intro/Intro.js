@@ -24,15 +24,15 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1 year</small>
+              <small>1+ years</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>5+ Completed Projects</small>
+              <small>3+ Completed Projects</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, Git/GitHub and React. My experience as a banker helped me collaborate with people that helped me out. Additionally, working with people's money isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in any industry.</p>
+          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, Git/GitHub and React. My experience as a banker helped me collaborate with people from all walks of life. Additionally, working with people's money isn’t an easy task, however, it has helped me become more efficient, productive, and fast even when in a very stressful environment, an important skill in any industry.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>

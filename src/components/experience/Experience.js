@@ -10,7 +10,7 @@ const Experience = () => {
     // Return Someting:
     return (
         <section id="experience">
-      <h5 className="change_size">These are my:</h5>
+      <h5 className="change_size">Here are my:</h5>
       <h2 className="change_size">Skills/Experiences</h2>
       <div className="container experience__container">
         <div className="experience__frontend">

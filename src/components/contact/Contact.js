@@ -9,12 +9,13 @@ import './contact.css';
 const Contact = () => {
     return (
       <section id="contact">
+        <h5 className="change_size">Like what you see?</h5>
         <h2 className="changeSize">Contact Me</h2>
         <div className="container contact__container">
           <div className="contact__options">
             <article className="contact__option">
               <h4>Email</h4>
-              <h5>hamzaishfaq980@gmail.com</h5>
+              <h6>hamzaishfaq980@gmail.com</h6>
               <a href="mailto:hamzaishfaq980@gmail.com">Send a message</a>
             </article>
           </div>
