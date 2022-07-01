@@ -18,7 +18,7 @@ const Contact = () => {
               <a href="mailto:hamzaishfaq980@gmail.com">Send a message</a>
             </article>
           </div>
-          <form>
+          <form href="mailto:hamzaishfaq980@gmail.com">
             <input type="text" placeholder="Your Full Name" name="user_name" required />
             <input type="text" placeholder="Your Email" name="user_email" required/>
             <textarea placeholder="Your message" rows="7" name="message" required></textarea>
