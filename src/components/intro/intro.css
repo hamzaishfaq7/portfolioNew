@@ -1,3 +1,5 @@
+/*This is to style the main picture, the about tiles, as well as the summary.*/
+
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -20,6 +22,9 @@
     transition: var(--transition);
     padding-bottom: 45px;
 }
+
+/*To make the image hover to the side:*/
+
 
 .about__me-image:hover {
     transform: rotate(0);
@@ -65,6 +70,9 @@
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
+
+
+/*To make the component responsive. For both high/low resolution screen.*/
 
 @media screen and (max-width: 1024px){
     .about__container {

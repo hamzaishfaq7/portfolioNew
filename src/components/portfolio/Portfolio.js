@@ -4,6 +4,7 @@ import React from 'react';
 import IMG1 from '../../assets/bookstore.png';
 import IMG2 from '../../assets/todo.png';
 import IMG3 from '../../assets/shelter.png';
+import IMG4 from '../../assets/comingsoon.png';
 import "./portfolio.css";
 
 // This is to create the portfolio section:
@@ -19,18 +20,26 @@ const Portfolio = () => {
         },
         {
           id: 2,
-          title: 'Tanzys Decor Event Planning Company',
+          title: 'Tanzys Decor Event Planning',
           img: IMG2,
           link: 'https://hamzaishfaq7.github.io/Party-Planning/',
           github: 'https://github.com/hamzaishfaq7/Party-Planning/',
         },
         {
           id: 3,
-          title: 'Old Portfolio',
+          title: 'My Old Portfolio',
           img: IMG3,
           link: 'https://hamzaishfaq7.github.io/Portfolio/',
           github: 'https://github.com/hamzaishfaq7/Portfolio',
+        },
+        {
+          id: 4,
+          title: 'Coming Soon! See a preview:',
+          img: IMG4,
+          link: 'https://hamzaishfaq7.github.io/',
+          github: 'https://github.com/hamzaishfaq7/',
         }
+
     ];
 
         // Return something:

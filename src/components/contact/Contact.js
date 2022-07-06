@@ -21,8 +21,8 @@ const Contact = () => {
           </div>
           <form href="mailto:hamzaishfaq980@gmail.com">
             <input type="text" placeholder="Your Full Name" name="user_name" required />
-            <input type="text" placeholder="Your Email" name="user_email" required/>
-            <textarea placeholder="Your message" rows="7" name="message" required></textarea>
+            <input type="text" placeholder="Your Email Address" name="user_email" required/>
+            <textarea placeholder="Please leave a message with any intructions you may have." rows="7" name="message" required></textarea>
             <button type="submit" className="btn btn-primary" >Send Message</button>
           </form>
         </div>

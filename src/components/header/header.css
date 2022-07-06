@@ -1,3 +1,5 @@
+/*This is here to style the component for the main header, as well as the Resume/Contact Form*/
+
 header {
     height: 100%;
     padding-top: 7rem;
@@ -19,8 +21,10 @@ header {
     margin-top: 2.5rem;
     font-size: 20px;
   }
+
+  /*Mobile Responsiveness*/
   
-  @media screen and (max-width: 1024px){
+  @media screen and (max-width: 824px){
     header {
       height: 68vh;
     }

@@ -1,9 +1,10 @@
 // This is here to link a resume to:
+// Import what is required:
 
 import React from 'react';
 import CV from '../../../src/assets/resume.pdf';
 
-// This is the creation for the resume download component.
+// This is the creation for the download/contact component.
 const CTA = () => {
   return (
     <div className="cta">

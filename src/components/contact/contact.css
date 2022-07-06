@@ -1,3 +1,5 @@
+/*This is for styling contact me section:*/
+
 .container.contact__container {
     width: 58%;
     display: grid;
@@ -61,6 +63,8 @@ textarea {
     resize: none;
     color: var(--color-white);
 }
+
+/*This is for styling the contact components:*/
 
 @media screen and (max-width: 1024px){
     .container.contact__container {

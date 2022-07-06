@@ -1,3 +1,5 @@
+/*This is for styling the experience components:*/
+
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -32,6 +34,8 @@
     gap: 1rem;
     margin-bottom: 1rem; 
 }
+
+/*This is to make the component responsive:*/
 
 @media screen and (max-width: 1024px){
     .portfolio__container {

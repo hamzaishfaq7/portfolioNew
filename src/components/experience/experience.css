@@ -1,3 +1,5 @@
+/*This is for styling the experience components:*/
+
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -39,6 +41,9 @@
     margin-top: 6px;
     color: var(--color-primary);
 }
+
+/*This is to make the component responsive:*/
+
 
 @media screen and (max-width: 1024px){
     .experience__container {
